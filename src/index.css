@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+button, a {
+  font: inherit;
+}
+
+
+#home,
+#cursos {
+  scroll-margin-top: 110px;
+}

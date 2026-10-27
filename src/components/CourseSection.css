@@ -1,0 +1,29 @@
+
+.course-section {
+  padding: 30px 5%;
+  scroll-margin-top: 110px;
+}
+
+.course-section h2 {
+  font-size: 25px;
+  margin: 0 0 22px;
+  color: #ffffff;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .course-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}

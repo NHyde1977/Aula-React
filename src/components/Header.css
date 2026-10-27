@@ -1,0 +1,18 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 5%;
+  background-color: #101010;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
