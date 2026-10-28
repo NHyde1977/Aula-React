@@ -26,6 +26,7 @@ function Footer({ categories }) {
 
             <a href="#home">Início</a>
             <a href="#cursos">Cursos</a>
+            <a href="#favoritos">Minha Lista</a>
 
             {categories.map((category) => (
               <a

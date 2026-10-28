@@ -19,6 +19,7 @@ function Header({ categories }) {
             {category.title}
           </a>
         ))}
+        <a href="#favoritos">Minha Lista</a>
       </nav>
 
       <div className="user-profile">

@@ -2,7 +2,12 @@
 import CourseCard from './CourseCard';
 import './CourseSection.css';
 
-function CourseSection({ category, onSelect }) {
+function CourseSection({
+  category,
+  onSelect,
+  favorites,
+  onToggleFavorite
+}) {
   return (
     <section
       id={category.id}
@@ -16,6 +21,8 @@ function CourseSection({ category, onSelect }) {
             key={course.id}
             course={course}
             onSelect={onSelect}
+            isFavorite={favorites.includes(course.id)}
+            onToggleFavorite={onToggleFavorite}
           />
         ))}
       </div>
